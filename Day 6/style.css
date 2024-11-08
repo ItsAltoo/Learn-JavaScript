@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background: linear-gradient(
+    320deg,
+    rgba(10, 6, 230, 0.747),
+    rgb(13, 89, 255)
+  );
+  height: 100vh;
+  color: #fff;
+  font-weight: 500;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  margin: 15px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+}
+
+button:active {
+  background-color: rgb(157, 171, 184);
+  color: #fff;
+}
+
+.display {
+  border: 1px #020202 solid;
+  background-color: rgb(172, 173, 173);
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 5px;
+  color: #000;
+}
+
+.display p {
+  margin-right: 20px;
+  font-size: 25px;
+}
